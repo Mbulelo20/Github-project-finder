@@ -16,7 +16,6 @@
 }
 
 body {
-  background-image: url("https://cdn2.iconfinder.com/data/icons/social-network-round-gloss-shine/512/gitlab.png");
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +23,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: rgb(193, 214, 195);
   color: rgb(85, 94, 56);
 }
 

@@ -27,6 +27,6 @@ Users.propTypes = {
 const userStyle ={
     display: 'grid',
     gridTemplateColumns: 'repeat(3, 1fr)',
-    gridGap: '1rem'
+    gridGap: '4rem'
 }
 export default Users

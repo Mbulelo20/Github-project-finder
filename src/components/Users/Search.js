@@ -39,13 +39,11 @@ export class search extends Component {
                     value={this.state.text}
                     onChange={this.onChange}
                     />
-                    <input type="submit" value="Search" className="btn btn-dark btn-black"/>
+                    <input type="submit" value="Search" className="btn btn-dark btn-black" style={{marginTop: '-1em'}}/>
                 </form> 
                 {showClear &&(
-                    <button 
-                        className="button btn-light btn-block" 
-                        onClick={clearUsers}>
-                            Clear 
+                    <button className="button btn-light btn-block" onClick={clearUsers}>
+                        Clear 
                     </button>
                 )}
             </div>
